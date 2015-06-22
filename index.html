@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Vanessa Mejía</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="description" content="Este es un proyecto de clase, muestra de un portafolio de vanessa mejía con imagenes,ilustraciones,pinturas y vectores. Diseño Gráfico">
+		<meta name="autor" content="Vanessa Mejía">
+		
+		<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+		<!-- jQueryMobileCSS - original without styling -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+
+		<!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.cafe.css"  id='jQMnDTheme' />
+
+		<!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.orange.css" id='jQMnDColor' />
+
+		<!-- jQuery / jQueryMobile Scripts -->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        
+
+    </head>
+    <body>
+        
+    <div data-role="page" data-theme='b' id="pagina1">
+
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="index.html" data-ajax="false"><i class='fa fa-bars'></i></a>
+            <h1>Vanessa Mejía</h1>
+        </div>
+       
+        <div data-role="content">   
+	        <div class='inset'>
+	        	<h1>Diseño & Ilustración</h1>
+	        	<h2>Todo tiene una razón de ser...</h2>
+
+				<p>Uno de las principales características a la hora de crear cualquier cosa es la concentración y detallismo que reflejo en cada trabajo que hago. </p>
+				<p>Soy una persona con demasiado hobbies pero entre ellos el arte está reflejado en su gran totalidad, soy muy competitiva y multifuncional en donde todo tiene un sentido de ser en mis manos; la creatividad y el arte son mi pasión, con solo respíralos seque a un hay vida, conocimiento y muchas cosas descubrir y pensar…</p>
+				<p>Un espacio en donde obtendrÃ¡s conocimiento sobre implementaciÃ³n de la pintura e ilustraciÃ³n en piezas graficas e ilustraciÃ³n.</p>
+				<img src="imagen/1b.jpg" border="1" width="606" height="825">
+				
+	        </div>
+		</div>
+
+		<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pagina1"><i class='blIcon fa fa-cog fa-spin'></i>Inicio</a></li>
+					<li><a href="#pagina2"><i class='blIcon fa fa-file-image-o'></i>Galería</a></li>
+					<li><a href="#pagina3"><i class='blIcon fa fa-map-marker fa-pulse'></i>Contactos</a></li>
+					<li><a href="#pagina4"><i class='blIcon fa fa-globe'></i>web social</a></li>
+				</ul>
+			</div>
+		</div>
+
+    </div>
+
+
+
+
+
+
+
+ <div data-role="page" data-theme='b' id="pagina2">
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="index.html" data-ajax="false"><i class='fa fa-bars'></i></a>
+            <h1>Galería</h1>
+        </div>
+       
+        <div data-role="content">
+        	
+
+         <!--
+			USING FLICKR FOR YOUR GALLERY
+			------------------------------	
+	
+			GET PUBLIC PHOTOS ORDERED BY interestingness-desc
+			----
+			
+ 			<ul data-nativedroid-plugin='flickr'
+				data-nativedroid-flickr-apikey='YOUR_API_KEY_HERE'
+				data-nativedroid-flickr-cat='photos'
+				data-nativedroid-flickr-method='search'
+				data-nativedroid-flickr-parameter="user_id=49253686@N04&per_page=48&extras=description,date_upload,geo,views,url_sq,url_l,url_t&sort=interestingness-desc"
+			></ul>
+
+			
+			GET A PHOTOSET LIST BY USER
+			----
+			
+			<ul data-role='listview'
+				data-nativedroid-plugin='flickr'
+				data-nativedroid-flickr-apikey='YOUR_API_KEY_HERE'
+				data-nativedroid-flickr-cat='photosets'
+				data-nativedroid-flickr-method='getList'
+				data-nativedroid-flickr-parameter="user_id=49253686@N04"
+			></ul>
+
+-->
+
+
+	        <div class='inset'>
+	        	<i class="fa fa-quote-left fa-3x pull-left fa-border"></i>
+	        	<h2>Todo tiene una razón de ser...</h2>
+				<p>Un espacio en donde obtendrás conocimiento sobre implementación del arte en  ilustración y en  piezas graficas.</p>
+	        	<ul data-nativedroid-plugin='gallery'>
+				<li style='background-image:url("imagen/2p.jpg")' data-image-large='imagen/2b.jpg' data-image-thumb='imagen/2p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Sesión en café</span></li>
+
+				<li style='background-image:url("imagen/3p.jpg")' data-image-large='imagen/3b.jpg' data-image-thumb='imagen/3p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Bosque Oculto (Tec. mixta).</span></li>
+
+				<li style='background-image:url("imagen/4p.jpg")' data-image-large='imagen/4b.jpg' data-image-thumb='imagen/4p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Monotipo: Dragón</span></li>
+
+				<li style='background-image:url("imagen/5p.jpg")' data-image-large='imagen/5b.jpg' data-image-thumb='imagen/5p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Afiche: revista"WAX
+					"</span></li>
+
+				<li style='background-image:url("imagen/6p.jpg")' data-image-large='imagen/6b.jpg' data-image-thumb='imagen/6p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Ilustración:vectores</span></li>
+
+				<li style='background-image:url("imagen/7p.jpg")' data-image-large='imagen/7b.jpg' data-image-thumb='imagen/7p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Retrato:Elvis</span></li>
+
+				<li style='background-image:url("imagen/8p.jpg")' data-image-large='imagen/8b.jpg' data-image-thumb='imagen/8p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Logo</span></li>
+
+				<li style='background-image:url("imagen/9p.jpg")' data-image-large='imagen/9b.jpg' data-image-thumb='imagen/9p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Llaveros de Porcelana fria</span></li>
+
+				<li style='background-image:url("imagen/10p.jpg")' data-image-large='imagen/10b.jpg' data-image-thumb='imagen/10p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Afiche: revista"WAX
+					" 2</span></li>
+
+					<li style='background-image:url("imagen/11p.jpg")' data-image-large='imagen/11b.jpg' data-image-thumb='imagen/11p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>camino..</span></li>
+
+						<li style='background-image:url("imagen/12p.jpg")' data-image-large='imagen/12b.jpg' data-image-thumb='imagen/12p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Figura:porcelana fria</span></li>
+
+
+					<li style='background-image:url("imagen/13p.jpg")' data-image-large='imagen/13b.jpg' data-image-thumb='imagen/13p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Aretes:porcelana fria</span></li>
+
+					<li style='background-image:url("imagen/14p.jpg")' data-image-large='imagen/14b.jpg' data-image-thumb='imagen/14p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Aretes:porcelana fria</span></li>
+
+
+					<li style='background-image:url("imagen/15p.jpg")' data-image-large='imagen/15b.jpg' data-image-thumb='imagen/15p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Oleo: canva</span></li>
+
+					<li style='background-image:url("imagen/16p.jpg")' data-image-large='imagen/16b.jpg' data-image-thumb='imagen/16p.jpg'><div class='closeTrigger'><i class='icon-remove'></i> close</div><span>Pintura: sobre cartoncillo</span></li>
+
+				<div class='overlay'></div>
+ 			</ul>
+			</div>
+		</div>
+				
+	      
+
+		<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pagina1"><i class='blIcon fa fa-cog fa-spin'></i>Inicio</a></li>
+					<li><a href="#pagina2"><i class='blIcon fa fa-file-image-o'></i>Galería</a></li>
+					<li><a href="#pagina3"><i class='blIcon fa fa-map-marker fa-pulse'></i>Contactos</a></li>
+					<li><a href="#pagina4"><i class='blIcon fa fa-globe'></i>web social</a></li>
+				</ul>
+			</div>
+		</div>
+
+    </div>
+
+ <script src="js/nativedroid.script.js"></script>
+
+
+
+
+
+
+
+     <div data-role="page" data-theme='b' id="pagina3">
+
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="index.html" data-ajax="false"><i class='fa fa-bars'></i></a>
+            <h1>Contactos</h1>
+        </div>
+       
+        <div data-role="content">   
+	        <div class='inset'>
+	        	
+	        </div>
+		</div>
+
+ <form action="" method="POST" enctype="multipart/form-data">
+    <input name="action" value="submit" type="hidden"> Tu nombre:<br>
+    <input name="name" size="30" type="text"><br> mail:<br>
+    <input name="email" size="30" type="text"><br> Message:<br>
+    <textarea name="message" rows="7" cols="30">
+    </textarea><br>
+    <input value="Send email" type="submit">
+    </form>
+
+
+
+		<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pagina1"><i class='blIcon fa fa-cog fa-spin'></i>Inicio</a></li>
+					<li><a href="#pagina2"><i class='blIcon fa fa-file-image-o'></i>Galería</a></li>
+					<li><a href="#pagina3"><i class='blIcon fa fa-map-marker fa-pulse'></i>Contactos</a></li>
+					<li><a href="#pagina4"><i class='blIcon fa fa-globe'></i>web social</a></li>
+				</ul>
+			</div>
+		</div>
+
+    </div>
+
+
+
+
+
+
+
+     <div data-role="page" data-theme='b' id="pagina4">
+
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="index.html" data-ajax="false"><i class='fa fa-bars'></i></a>
+            <h1>Web social</h1>
+        </div>
+       
+        <div data-role="content">   
+	        <div class='inset'>
+	        	<h1>web social</h1>
+	        	
+
+		<div data-role="content">   
+	       <a class="twitter-timeline" href="https://twitter.com/twitter" data-widget-id="611332453366534145">Tweets por el @twitter.</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+
+		<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pagina1"><i class='blIcon fa fa-cog fa-spin'></i>Inicio</a></li>
+					<li><a href="#pagina2"><i class='blIcon fa fa-file-image-o'></i>Galería</a></li>
+					<li><a href="#pagina3"><i class='blIcon fa fa-map-marker fa-pulse'></i>Contactos</a></li>
+					<li><a href="#pagina4"><i class='blIcon fa fa-globe fa-spin'></i>web social</a></li>
+				</ul>
+			</div>
+		</div>
+
+    </div>
+
+
+
+
+
+
+   
+    </body>
+</html>
